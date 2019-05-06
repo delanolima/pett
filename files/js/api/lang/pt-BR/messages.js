@@ -8,7 +8,7 @@
 var current_minimum_lang_revision="0016"
 var gui_incomplete_lang="A tradução atual está incompleta, considere atualizá-la ou apenas pular este aviso"
 
-var msg_select_vsh_type="Usar a CEX?\n\nSelecionando NÃO, será usado os offsets da DEX";
+var msg_select_vsh_type="Usar a CEX?\n\nSelecionando NÃO, serão usados os offsets da DEX";
 
 var msg_detected_fw_1="Firmware Detectado: ";
 var msg_detected_fw_2=" ";
@@ -23,7 +23,7 @@ var compat_msg_success2=", e é compatível com o PS3Xploit! Aproveite!";
 var msg_option_not_available="Esta opção ainda não está disponível!";
 
 // This option is only for users with a modified 4.83/4.83 OFW, using the silk_webkit.sprx from firmware 4.82
-var msg_modified_ofw="This version firmware is ONLY supported if using the 4.82 silk_webkit.sprx!";
+var msg_modified_ofw="Esta versão do firmware SOMENTE é suportada se usar silk_webkit.sprx do 4.82!";
 
 // Settings
 var msg_settings_load="Isto é experimental e carrega configurações de um cookie!";
@@ -46,28 +46,28 @@ var msg_temps_celcius=" ºC";
 
 // MemDump
 var msg_memdump_warning="Atenção!\n\nEste teste irá travar se uma área não alocada da memória for atingida durante o processo de dump!\n\nVocê terá um dump válido, até o momento que o teste travar!";
-var msg_memdump_idps_vsh="Somente os firmwares 4.66/4.81/4.82 suportam Dump IDPS direto da Memória VSH!\n\nO IDPS Dump direto da Memória VSH é diferente das demais cadeias.\n\nTodos os outros firmwares provavelmente irão fazer um dump só com 0s.";
+var msg_memdump_idps_vsh="Somente os firmwares 4.66/4.81/4.82 suportam IDPS Dump direto da Memória VSH!\n\nO IDPS Dump direto da Memória VSH é diferente das demais cadeias.\n\nTodos os outros firmwares provavelmente irão fazer um dump só com 0s.";
 var msg_memdump_size="Valores do Dump Raw direto da memória VSH\n\nTamanho: 0x";
 var msg_memdump_start_addr="\nEndereço inicial: 0x";
 var msg_memdump_end_addr="\nEnderenço final: 0x";
 
 // Warnings
 var msg_fd_close_warning="Os descritores de arquivos (FDs) atualmente não são fechados automaticamente!";
-var msg_remove_dir_warning="ATENÇÃO!\n\nTome cuidado ao usar este chamada do sistema (syscall).\n\nVocê pode remover uma pasta essencial e ter que reinstalar todo o firmware!";
+var msg_remove_dir_warning="ATENÇÃO!\n\nTome cuidado ao usar esta chamada do sistema (syscall).\n\nVocê pode remover uma pasta essencial e ter que reinstalar todo o firmware!";
 var msg_warning_write_protection="A proteção contra escrita foi desativada!\n\nCONTINUE COM CUIDADO!!!";
 
-var msg_cobra_only="ALERTA!\n\nIsto só FUNCIONA com o COBRA ativado na CFW!";
+var msg_cobra_only="ALERTA!\n\nIsto SOMENTE funciona com o COBRA ativado na CFW!";
 
 var msg_mount_test="** EM FASE DE TESTES **";
 var msg_mount_no_disc="Isto irá desmontar a partição dev_usb000 e montá-la como dev_bdvd\n\nNão deve haver NENHUM DISCO na bandeja!";
 var msg_mount_yes_disc="Isto irá desmontar a partição dev_bdvd e dev_usb000, e depois montar a partição dev_usb000 como dev_bdvd\n\nDeve haver UM DISCO na bandeja!";
-var msg_mount_ps3_disc="Isto irá montar a partição dev_bdvd como um Disco de PS3\n\nDeve haver UM DISCO na bandeja!";
+var msg_mount_ps3_disc="Isto irá montar a partição dev_bdvd como um disco de PS3\n\nDeve haver UM DISCO na bandeja!";
 var msg_mount_usb_enable="R9 Pointer Ativado!\n\nO Valor é Definido em um Endereço Temporário";
 var msg_mount_usb_disable="R9 Pointer Desativado!\n\nValor Definido para 0";
 
 // File Operations
 var msg_default_size="Usando o tamanho padrão 0x140";
-var msg_new_size="Novo Tamanho de Arquivo: 0x";
+var msg_new_size="Novo tamanho de arquivo: 0x";
 var msg_destination_path_set_new="Novo caminho definido para:\n\n";
 var msg_destination_path_incorrect="O caminho de destino está incorreto!\n\nIsto deve ser alterado antes de trocar o Title ID.";
 
@@ -98,27 +98,27 @@ var msg_success_init="<h3><b><font color='#386E38'>SUCESSO!</font><br><font colo
 
 // Exec Success
 var success_chain_exec="<h3><b><font color='#386E38'>Cadeia executada com sucesso!</font></b><br> &nbsp;</h3>";
-var success_chain_exec_press_again="<h3><b><font color='#386E38'>Pressione o botão de Executar mais uma vez!</font></b></h3>";
-var success_chain_exec_psid="<h3><b><font color='#386E38'>PSID Dump feito com sucesso!</font></b></h3>";
-var success_chain_exec_idps="<h3><b><font color='#386E38'>IDPS Dump feito com sucesso!</font></b></h3>";
-var success_chain_exec_syscall_dump="<h3><b><font color='#386E38'>Valor retornado do Syscall Dump feito com sucesso!</font></b></h3>";
-var success_chain_exec_memdump="<h3><b><font color='#386E38'>Dump da Memória feito com sucesso!</font></b></h3>";
+var success_chain_exec_press_again="<h3><b><font color='#386E38'>Pressione o botão Executar mais uma vez!</font></b></h3>";
+var success_chain_exec_psid="<h3><b><font color='#386E38'>Dump do PSID realizado com sucesso!</font></b></h3>";
+var success_chain_exec_idps="<h3><b><font color='#386E38'>Dump do IDPS realizado com sucesso!</font></b></h3>";
+var success_chain_exec_syscall_dump="<h3><b><font color='#386E38'>Dump do Syscall Return Value realizado com sucesso!</font></b></h3>";
+var success_chain_exec_memdump="<h3><b><font color='#386E38'>Dump da Memória realizado com sucesso!</font></b></h3>";
 var success_chain_exec_read_write_file="<h3><b><font color='#386E38'>Transferido da Origem para o Destino com sucesso!</font></b></h3>";
-var success_mount_device="<h3><b><font color='#386E38'>Dispositivo Montado com Sucesso!</font></b></h3>";
+var success_mount_device="<h3><b><font color='#386E38'>Dispositivo montado com sucesso!</font></b></h3>";
 
 // Compatibility/Offset Messages
-var ua_msg="<hr><h3>Info do Navegador do Sistema PS3: "+navigator.userAgent+ "</h3>";
+var ua_msg="<hr><h3>Info do navegador do Sistema PS3: "+navigator.userAgent+ "</h3>";
 var compat_msg_nops3="Você não está em um Sistema PlayStation! Todos os recursos foram desativados.";
 var compat_msg_devs="Isto é destinado apenas para DESENVOLVEDORES!\n\nOffsets CEX precisam ser manualmente adicionados no arquivo /js/chains/offsets.js, baseado em seus offsets DEX em uso para cada cadeia.";
 var experimental="Configure sua página principal para ser essa página!\n\nUSE POR SUA CONTA E RISCO!\nPode conter bugs e algumas coisas que não funcionam!\n\nTodos os modelos em 4.xx CEX e 4.81 DEX são suportados";
 
 // Other Messages
-var msg_prerelease="ESTE É UM LANÇAMENTO PRÉVIO INICIAL!\n\nSUPORTE A FIRMWARES MAIS ANTIGOS ESTÁ FUNCIONANDO APENAS PARCIALMENTE!\n\nAPENAS FIRMWARES 4.81/4.82 ATÉ O PRÓXIMO LANÇAMENTO!";
-var msg_anti_piracy="AVISO LEGAL\n\nNós NÃO toleramos ou aprovamos PIRATARIA de qualquer tipo!\n\nAo usar este tutorial, e clicando em SIM, você concorda em usá-lo APENAS para fins educacionais!";
+var msg_prerelease="ESTE É UM LANÇAMENTO PRÉVIO INICIAL!\n\nSUPORTE A FIRMWARES MAIS ANTIGOS ESTÁ PARCIALMENTE IMPLEMENTADO!\n\nAPENAS FIRMWARES 4.81/4.82 ATÉ O PRÓXIMO LANÇAMENTO!";
+var msg_anti_piracy="AVISO LEGAL\n\nNós NÃO toleramos ou aprovamos PIRATARIA de qualquer tipo!\n\nAo usar este tutorial, e clicar em SIM, você concorda em usá-lo APENAS para fins educacionais!";
 var msg_anti_piracy_edat="AVISO LEGAL ANTI-PIRATARIA!\n\nEsta opção destina-se apenas a fins de teste e desenvolvimento, e não deve ser abusada!\n\nAo clicar em SIM, você aceita usar isso apenas com títulos que foram comprados!";
 
 // Devices
-var msg_device_loaded_into_mem="O nome do dispositivo é retornado na memória!\n\nPressione o botão Executar novamente para carregar e exibir este valor!";
+var msg_device_loaded_into_mem="O valor de retorno do dispositivo foi carregado na memória!\n\nPressione o botão Executar novamente para ler e exibir este valor!";
 var msg_get_device_info1="Dispositivo Retornado: ";
 var msg_get_device_info2="\n\nUse isto para a cadeia sys_storage_report_devices";
 
@@ -129,21 +129,21 @@ var msg_stackframe_check="Isto vai checar o stackframe padrão procurando por pr
 // String Matching
 var verify_fail="<font color='#7700DA'>FALHA: Sequência não encontrada na memória!</font>";
 var verify_success="<font color='#2a1003'>SUCESSO: Sequência encontrada na memória!</font>";
-var verify_skip="<font color='#2a1003'>SUCCESS: Sequência não verificada na memória!</font>";
+var verify_skip="<font color='#2a1003'>SUCCESSO: Sequência não verificada na memória!</font>";
 
-var msg_search_flash_type_start="Procurar parâmetros definidos para ";
+var msg_search_flash_type_start="Parâmetros de busca definidos para ";
 var msg_search_flash_type_end=" Flash!";
 
 var msg_chk_mem_arg_error="Erro nos argumentos da função checkMemory! size=0x";
-var msg_malformed_html="HTML Inválido!";
+var msg_malformed_html="HTML inválido!";
 var msg_string_located=" Encontrado no offset: 0x";
 var msg_string_not_located="não foi encontrado no intervalo";
 
 // Found Offsets
-var msg_found_offsets="<h4><b>Offsets Encontrados: ";
-var msg_verified_offsets="<h4><b>Offsets Verificados: ";
+var msg_found_offsets="<h4><b>Offsets encontrados: ";
+var msg_verified_offsets="<h4><b>Offsets verificados: ";
 
-var msg_page_args_not_set="Argumentos da pagina não definidos!\n\nClique no botão de Argumentos e tente novamente!";
+var msg_page_args_not_set="Argumentos da página não definidos!\n\nClique no botão de Argumentos e tente novamente!";
 var msg_no_chain_selected="Nenhuma Cadeia HEX ROP selecionada\n\nUtilize a Caixa de Seleção para escolher uma cadeia";
 var msg_media_not_supported="Esta mídia ainda não foi implementada.";
 var msg_cannot_continue="Não foi possível continuar... Retornando!";
@@ -153,7 +153,7 @@ var msg_invalid_title_id="ALERTA!\n\nO Title ID inserido tem um tamanho invalido
 // index GUI text
 var gui_title="PS3 Exploitation Tutorial Template ";
 var guy_by="by ";
-var gui_credits="Agradeço à @xerpi pelo port para o PS3 do exploit de vazamento de memória no ambiente de usuário, à @zecoxao e @Joonie pelo suporte inicial e contínuo, à @mysis por documentar os plugins e exports VSH, aos contribuidores da #psdevwiki claro, à @STLcardsWS pelo sua contribuição ao longo do tempo e toda a comunidade PS3 de hacker/devs do passado e do presente, vocês sabem quem são vocês. Obrigado também à @littlebalup pela ideia e a implementação js que nós usamos para fazer a edição HDD dos Dumpers e Flasher. Obrigrado também à @B7U3 C50SS, @Endless, e @0x1991337 pelo tutorial de teste da syscall e outras ajudas! <font color='yellow'>Mais detalhes e notícias: <a href='http://www.psx-place.com'>psx-place.com</a>. Site Oficial: <a href='http://ps3xploit.com'>ps3xploit.com</a></font>";
+var gui_credits="Agradeço ao @xerpi pelo port para o PS3 do exploit de vazamento de memória no ambiente de usuário, ao @zecoxao e @Joonie pelo suporte inicial e contínuo, ao @mysis por documentar os plugins e exports VSH, aos contribuidores da #psdevwiki claro, ao @STLcardsWS pelo sua contribuição ao longo do tempo e toda a comunidade PS3 de hacker/devs do passado e do presente, vocês sabem quem são vocês. Obrigado também ao @littlebalup pela ideia e a implementação js que nós usamos para fazer a edição HDD dos Dumpers e Flasher. Obrigrado também aos @B7U3 C50SS, @Endless, e @0x1991337 pelo tutorial de teste da syscall e outras ajudas! <font color='yellow'>Mais detalhes e notícias: <a href='http://www.psx-place.com'>psx-place.com</a>. Site Oficial: <a href='http://ps3xploit.com'>ps3xploit.com</a></font>";
 
 // Checkboxes First Section
 var gui_chk_default_settings="Configurações padrão:";
@@ -337,7 +337,7 @@ var gui_chk_search_debug_output="Debug:";
 // Buttons
 var gui_txt_option_init_rop_btn="Iniciar a Cadeia ROP";
 var gui_txt_option_exec_rop_btn="Executar a Cadeia";
-var gui_txt_option_reload_page_btn="Recarregar a Pagina";
+var gui_txt_option_reload_page_btn="Recarregar a Página";
 var gui_txt_option_reset_btn="Resetar as Opções";
 var gui_txt_option_load_settings_btn="Carregar as Configs";
 var gui_txt_option_save_settings_btn="Salvar as Configs";
